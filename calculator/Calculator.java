@@ -20,6 +20,10 @@ package calculator;
  * would mix Calculator and Expression functionality, not segregating
  * duties very well.
  *
+ * A third simpler possibility is to stack the unprocessed operand
+ * and operator to be processed later when the higher priority operations
+ * are complete.
+ *
  * KNOWN ERROR #2
  * Pressing equals when there are values put no operation produces error
  * The fix should be to ignore "=" when there is no operator
