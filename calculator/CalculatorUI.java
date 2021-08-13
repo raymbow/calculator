@@ -66,7 +66,6 @@ public class CalculatorUI {
             String buttonText = button.getText();
             processButton(buttonText);
         }
-        
     }
 
     /**
@@ -148,7 +147,6 @@ public class CalculatorUI {
         pane.add(button, constraints);
     }
 
-    // initialize the window, set up the frame
     // initialize the window, set up the frame
     private JFrame initializeFrame() {
         JFrame frame = new JFrame("Simple Calculator");
